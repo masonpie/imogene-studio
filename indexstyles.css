@@ -1,0 +1,142 @@
+header {
+    background-color: #ffd0d7;
+    margin-top: 0px;
+    padding: 0;
+    overflow: auto;
+    position: fixed;
+    top: -8px;
+    left: -8px;
+    width: 104%;
+    margin-left: 0px;
+    margin: 0px;
+    z-index: 10;
+}
+.nav {
+    width: 90%;
+    margin-top: 0px;
+}
+nav ul {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+}
+nav li {
+    padding: 1em 2em 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    height: 10%;
+}
+nav a {
+    text-decoration: none;
+    font-size: 2.2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: black;
+    z-index: 4;
+}
+nav a:hover {
+    font-weight: bold;
+    z-index: 3;
+}
+nav a:active {
+    text-shadow: 1.5px 1.5px #838383;
+    z-index: 2;
+}
+body {
+    background-color: #fff1f3;
+}
+img.profpic {
+    float: right;
+    border-radius: 50%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 3em;
+}
+img.cover {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 5em;
+}
+#welcome {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    overflow: visible;
+    position: relative;
+    top: 2.5em;
+    letter-spacing: 5px;
+}
+.about {
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 2em;
+    font-family: cursive;
+}
+#about {
+    color: #fff1f3;
+    z-index: 1;
+    margin-left: 20%;
+}
+#aboutcontent {
+    margin-left: 20%;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 35%;
+    text-align: justify;
+    line-height: 1.4em;
+}
+#logo {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2.3em;
+    overflow: visible;
+    z-index: 20;
+    position: fixed;
+    left: 1.5em;
+    top: -.28em;
+    margin: 0px;
+    padding: 0px;
+}
+.more {
+    margin-left: 20%;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 35%;
+    text-align: justify;
+    line-height: 1.4em;
+    width: 35%;
+}
+iframe {
+    margin-left: 20%;
+}
+.moretitle {
+    margin-left: 20%;
+    font-size: 2em;
+    font-family: cursive;
+}
+a#top {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+}
+a#top:visited {
+    color: black;
+}
+.indent {
+    margin-left: 20%;
+}
+#contact {
+    text-align: right;
+    font-size: .9em;
+    position: absolute;
+    top: 71em;
+    right: 18em;
+}
+#topfinder {
+    color: #fff1f3;
+}

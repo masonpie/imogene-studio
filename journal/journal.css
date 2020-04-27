@@ -1,0 +1,124 @@
+header {
+    background-color: #ffd0d7;
+    margin-top: 0px;
+    padding: 0;
+    overflow: auto;
+    position: fixed;
+    top: -8px;
+    left: -8px;
+    width: 104%;
+    margin-left: 0px;
+    margin: 0px;
+    z-index: 10;
+}
+.nav {
+    width: 90%;
+    margin-top: 0px;
+}
+nav ul {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+}
+nav li {
+    padding: 1em 2em 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    height: 10%;
+}
+nav a {
+    text-decoration: none;
+    font-size: 2.2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: black;
+    z-index: 3;
+}
+nav a:hover {
+    font-weight: bold;
+    z-index: 2;
+}
+nav a:active {
+    text-shadow: 1.5px 1.5px #838383;
+    z-index: 1;
+}
+body {
+    background-color: #fff1f3;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-left: 0px;
+    font-size: 2em;
+    padding: 0 2em 1em 2em;
+    height: 2em;
+    text-align: center;
+    overflow: visible;
+    position: relative;
+    top: 3em;
+}
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-weight: bold;
+}
+.words {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left: 6em;
+    margin-top: .5em;
+    margin-bottom: 5em;
+}
+.journal {
+    position: relative;
+    top: 2em;
+}
+.topfooter {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+a {
+    color: black;
+}
+#logo {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2.3em;
+    overflow: visible;
+    z-index: 20;
+    position: fixed;
+    left: 1.5em;
+    top: -.28em;
+    margin: 0px;
+    padding: 0px;
+}
+.marginfix {
+    margin-bottom: 1em;
+}
+table {
+    margin-left: 6em;
+    background-color: #ffdde2;
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    padding: 1em;
+    border: 1px solid #a2a2a2;
+    position: relative;
+    left: -1px;
+}
+.alignleft {
+    text-align: left;
+}
+th {
+    padding: 0 .5em 0 .5em;
+}
+.head {
+    padding: 1.5em 1.5em 1em 1.5em;
+    background-color: #ffcad2;
+}
